@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+   
+}
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.image{
+    width: 99%;
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+}
+.img{
+  height: 300px;
+  width: 70%;
+  border: 1px solid wheat;
+  border-radius: 10%;
+}
+.blogHeader{
+ background-color: aqua;
+ color: red;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100px;
+}
+.blogContain{
+    background-color: bisque;
+}
+.blogTaxt{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blogTaxt>div{
+    width: 60%;
+}
+.images{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images>div{
+    width: 90%;
+    background-color: white;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+/* .images>div img{
+
+} */
+footer{
+   height: 200px;
+   width: 100%;
+   background-color: brown;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
